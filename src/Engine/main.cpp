@@ -29,7 +29,13 @@ int main( void )
     rt.integrate(); // Renders the final image.
 
     // Save the rendered image to a .ppm file.
-    rendering_buffer.save( "output_image.ppm" );
+    std::string path = "/home/lbittencourt/Documentos/Coding/C++/RT-Template/outputs/";
+    time_t rawtime;
+    struct tm * timeinfo;
+    time (&rawtime);
+    timeinfo = localtime (&rawtime);
+    std::string timestamp = asctime(timeinfo);
+    rendering_buffer.save( path + timestamp + ".ppm" );
 
     return EXIT_SUCCESS;
 }

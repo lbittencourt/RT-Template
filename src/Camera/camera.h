@@ -5,8 +5,8 @@
 #include <iomanip>
 
 #include <glm/glm.hpp>
-#include "onb.h"
-#include "ray.h"
+#include "../Engine/onb.h"
+#include "../Engine/ray.h"
 
 class Camera
 {

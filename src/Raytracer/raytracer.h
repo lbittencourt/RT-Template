@@ -5,9 +5,9 @@
 #include <iomanip>
 #include <cmath>
 
-#include "camera.h"
-#include "scene.h"
-#include "buffer.h"
+#include "../Camera/camera.h"
+#include "../Engine/scene.h"
+#include "../Engine/buffer.h"
 
 class RayTracer
 {

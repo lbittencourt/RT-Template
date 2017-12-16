@@ -3,8 +3,8 @@
 
 #include <memory>
 
-#include "ray.h"
-#include "intersection_record.h"
+#include "../Engine/ray.h"
+#include "../Engine/intersection_record.h"
 
 class Primitive
 {

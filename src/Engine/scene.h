@@ -7,8 +7,8 @@
 #include <vector>
 #include <glm/glm.hpp>
 
-#include "primitive.h"
-#include "sphere.h" 
+#include "../Primitives/primitive.h"
+#include "../Primitives/sphere.h" 
 
 class Scene
 {
