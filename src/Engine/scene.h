@@ -8,7 +8,8 @@
 #include <glm/glm.hpp>
 
 #include "../Primitives/primitive.h"
-#include "../Primitives/sphere.h" 
+#include "../Primitives/sphere.h"
+#include "../Primitives/triangle.h"
 
 class Scene
 {
